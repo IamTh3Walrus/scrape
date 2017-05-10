@@ -24,7 +24,7 @@ app.use(bodyParser.urlencoded({
 
 
 // Save MongoDB directory to a db var
-var db = 'mongodb://localhost/mongoHeadlines';
+var db = 'mongodb://stephendoe:mofftarkin@ds137141.mlab.com:37141/mongoheadlines';
 
 // Connect that directory to Mongoose, for simple, powerful querying
 mongoose.connect(db, function(err){
